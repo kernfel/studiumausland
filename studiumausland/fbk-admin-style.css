@@ -1,0 +1,447 @@
+/* =Line for fees, courses, accommodation - Keep high in the document */
+._fbk-cf_line {
+	margin: 4px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	overflow: auto;
+	background-color: #eee;
+}
+._fbk-cf_lineitem {
+	float: left;
+	width: 15%;
+	padding: 0 0.32%;
+	overflow: hidden;
+	margin: 5px 0;
+}
+._fbk-cf_shorttext {
+	width: 9%;
+}
+._fbk-cf_longtext {
+	width: 45%;
+}
+._fbk-cf_checkbox {
+	width: 6%;
+}
+._fbk-cf_lineitem label {
+	display: block;
+	font-weight: bold;
+	font-size: 80%;
+	white-space: nowrap;
+}
+._fbk-cf_lineitem input,
+._fbk-cf_lineitem select,
+._fbk-cf_lineitem textarea {
+	margin-top: 0.2em;
+	display: block;
+	width: 100%;
+}
+._fbk-cf_checkbox input {
+	margin-top: 0.4em;
+	width: auto;
+}
+._fbk-cf_js-flap {
+	width: 40px;
+	float: right;
+	margin: 5px 0 0 6px;
+}
+._fbk-cf_js-flap a.fbk_cf_js {
+	cursor: pointer;
+	display: block;
+	width: 12px;
+	height: 10px;
+	padding: 2px 2px 4px;
+	text-align: center;
+}
+._fbk-cf_js-flap > div {
+	float: right;
+	margin: 1px;
+}
+._fbk-cf_js-flap a.fbk_cf_sortable_handle {
+	height: 27px;
+	cursor: N-resize;
+	padding: 6px 2px 3px 1px;
+}
+.fbk_cf_expandable ._fbk-cf_js-flap a.fbk_cf_sortable_handle {
+	padding-top: 18px;
+	padding-bottom: 11px;
+}
+.fbk_cf_prototype {
+	display: none;
+}
+._fbk-cf_accstack input.sourceval {
+	background-color: #ffd;
+}
+._fbk-cf_accstack input.noval {
+	background-color: #ddd;
+	border-color: #ccc;
+}
+
+/* =Wysiwyg */
+._fbk-cf_wysiwyg {
+	margin-top: 5px;
+	width: 650px;
+}
+#post-body ._fbk-cf_wysiwyg .wp_themeSkin .mceStatusbar a.mceResize {
+	top: 0;
+}
+._fbk-cf_wysiwyg iframe {
+	background: #fff !important;
+}
+._fbk-cf_wysiwyg textarea {
+	min-height: 30em;
+}
+
+/* =Leisure box */
+#fbk-cf-leisure-box ._fbk-cf_wysiwyg {
+	margin: 0 0 15px;
+	width: 100%;
+}
+#fbk-cf-leisure-box iframe {
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+}
+#fbk-cf-leisure-box .inside {
+	margin: 0;
+}
+#fbk-cf-leisure-box .wp_themeSkin .mceStatusbar a.mceResize {
+	display: none;
+}
+
+/* =Geolocation box & */
+/* =Internal box */
+._fbk-cf_geo-wrapper,
+._fbk-cf_internal-wrapper {
+	margin: 15px 10px;
+}
+._fbk-cf_geo-wrapper label,
+._fbk-cf_internal-wrapper label {
+	font-weight: bold;
+}
+._fbk-cf_geo-wrapper input,
+._fbk-cf_internal-wrapper select,
+._fbk-cf_internal-wrapper input {
+	width: 100%;
+	display: block;
+	margin-top: 2px;
+}
+._fbk-cf_internal-wrapper textarea {
+	height: 10em;
+}
+
+/* =Courses box */
+._fbk-cf_courses-cost-wrapper .fbk_cf_tabline_calc {
+	display: block;
+}
+._fbk-cf_courses-dur-wrapper {
+	width: 10%;
+}
+._fbk-cf_courses-dur-wrapper input,
+._fbk-cf_courses-lvl-wrapper select {
+	display: inline;
+	width: 42%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+._fbk-cf_courses-size-wrapper {
+	width: 15%;
+}
+._fbk-cf_courses-size-wrapper input {
+	display: inline;
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+._fbk-cf_courses ._fbk-cf_wysiwyg {
+	clear: left;
+	width: 58%;
+}
+._fbk-cf_courses ._fbk-cf_course_tag {
+	width: 255px;
+}
+._fbk-cf_courses ._fbk-cf_course_tag input.button {
+	width: 160px;
+}
+
+/* =coursestack */
+._fbk-cf_courses ._fbk-cf_coursestack {
+	float: right;
+	width: 250px;
+	height: 600px;
+	overflow-y: scroll;
+}
+.stack-item {
+	padding: .2em;
+	margin: .2em;
+	border: 1px solid #999;
+	background-color: #EAEAEA; 
+}
+.group-horizontal {
+	text-align: right;
+	overflow: hidden;
+	width: 100%;
+	margin: .5em 0;
+}
+.group-horizontal a {
+	padding: 0.3em 0;
+}
+._fbk-cf_lineitem .group-horizontal>* {
+	display: inline-block;
+	width: auto;
+	margin: 0 .5em;
+}
+div.stackval {
+	margin: 0;
+}
+.group-horizontal input.stackval {
+	width: 5em;
+}
+.stack-item-title {
+	float: left;
+}
+.sort-stack {
+	cursor: N-resize;
+}
+.stack-details {
+	padding: .5em;
+	background-color: #ddd;
+}
+
+.stack-closed .close-stack,
+.stack-closed .kill-stack,
+.stack-open .open-stack,
+.stack-open .sort-stack,
+.stack-closed .stack-details,
+.dupe-stack,
+.proto-stack .open-stack,
+.proto-stack .sort-stack {
+	display: none !important;
+}
+.proto-stack .dupe-stack {
+	display: inline !important;
+}
+.proto-stack {
+	background: #ccc;
+}
+
+/* =Accomodations box */
+._fbk-cf_accommodation > ._fbk-cf_wysiwyg {
+	clear: left;
+	width: 58%;
+}
+
+/* =Fees box */
+._fbk-cf_fees ._fbk-cf_longtext {
+	width: 35%;
+}
+._fbk-cf_fees ._fbk-cf_select {
+	width: 12%;
+}
+
+/* =Bitmask */
+.fbk_cf_bitmask_entry input {
+	display: inline;
+	width: auto;
+	margin: 0 4px;
+}
+.fbk_cf_bitmask_entry {
+	padding: 2px 1em;
+}
+._fbk-cf_bitmask label {
+	display: block;
+	margin-bottom: 0.4em;
+}
+
+/* =Textarea */
+._fbk-cf_textarea textarea {
+	width: 100%;
+}
+
+/* =accstack */
+._fbk-cf_accommodation ._fbk-cf_accstack {
+	float: right;
+	width: 370px;
+	height: 400px;
+	overflow-y: scroll;
+}
+._fbk-cf_accommodation .stack-calc {
+	float: right;
+}
+
+.accstack-top {
+	text-align: center;
+}
+.accstack-top label,
+.accstack-top button {
+	display: inline;
+	width: auto;
+}
+.accstack-top input {
+	display: inline;
+	width: 3em;
+}
+.accstack-top .sourceweeks a {
+	cursor: pointer;
+	color: #f70;
+	font-weight: bold;
+	padding-right: 0.5em
+}
+._fbk-cf_accstack th {
+	font-size: 80%;
+	font-weight: normal;
+}
+._fbk-cf_accstack td input {
+	width: 5em;
+}
+
+
+/************************ thickbox styles ********************************/
+#fbk-tabless {
+	padding: 1em;
+}
+#fbk-tabless #filter {
+	margin-top: 1em;
+}
+form#filter {
+	overflow: hidden;
+}
+.fbk-searchresults {
+	width: 100%;
+}
+.fbk-searchresults th {
+	font-weight: bold;
+}
+.fbk-searchresults th:first-child {
+	width: 100px;
+}
+.fbk-searchresults td,
+.fbk-searchresults tbody th {
+	border: solid #bbb;
+	border-width: 1px 0;
+}
+.fbk-searchresults tbody th {
+	text-align: center;
+	vertical-align: middle;
+}
+.fbk-searchresults tfoot {
+	text-align: right;
+}
+.fbk-course-list.collapsed {
+	height: 20px;
+	overflow: hidden;
+}
+.fbk-course-list.collapsed li:first-child:after {
+	content: ' (\2026)';
+}
+/**** Specific ****/
+#media-hijack {
+	padding: 0 1em 1em;
+	clear: both;
+}
+#link_shorttag_content {
+	width: 60%;
+	margin-right: 1em;
+}
+
+/******************************** Other ****************************************/
+.school_connect_item {
+	display: inline-block;
+	padding: 0 10px;
+	margin: 6px;
+	border-radius: 4px;
+	line-height: 2em;
+}
+.fbk-share-info {
+	width: 90%;
+	background: lightYellow;
+	border: 1px solid #E6DB55;
+	border-radius: 3px;
+	padding: 0 1em;
+}
+#persistent-filter {
+	white-space: nowrap;
+}
+#persistent-filter-clear {
+	margin-right: 0.5em;
+}
+.catmeta-heading {
+	font-weight: bold;
+	font-size: 1.2em;
+	border-top: 2px solid grey;
+	padding-top: .4em;
+}
+
+/* =quote tables
+------------------------------*/
+section.quote {
+	float: left;
+}
+table.quote {
+	border-collapse: collapse;
+	border: 1px solid white;
+	width: 578px;
+	margin: 6px;
+}
+.quote td,
+.quote th {
+	padding: 7px 12px;
+	color: #333;
+	border: 1px solid #fff;
+	vertical-align: top;
+	text-align: left;
+	font-weight: normal;
+	background-color: #E0E0E0;
+}
+.quote thead th,
+.quote th[scope=rowgroup] {
+	background-color: #777;
+	font-weight: bold;
+	color: #fff;
+}
+.quote .c-0 tfoot th {
+	background-color: #C679A4;
+	color: #fff;
+}
+.quote tfoot td {
+	background-color: #F5E8B0;
+}
+.quote tfoot td a {
+	color: #555;
+}
+.quote .c-0 tbody th {
+	background-color: #7A91C6;
+	color: #fff;
+}
+.quote td.bill,
+.quote td.cash,
+.quote td.item {
+	white-space: nowrap;
+	text-align: right;
+}
+.pdf-quote {
+	background: url(img/pdf_logo_18.png) no-repeat 0 0;
+	padding-left: 22px;
+	margin-left: 1em;
+	display: block;
+	min-height: 1.5em;
+}
+.quote .pdf-quote {
+	float: right;
+	color: white;
+}
+.chosen-quote {
+	font-weight: bold;
+}
+.assist-requested {
+	background-color: #fe8;
+}
+table.interessenten table td:first-child {
+	width: 5em;
+}
+.fbk-user-info td {
+	padding: .2em .5em;
+	border-bottom: 1px solid #ddd;
+}
+.fbk-user-info td:first-child {
+	text-align: right;
+}

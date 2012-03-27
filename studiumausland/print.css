@@ -1,0 +1,134 @@
+#top,
+aside,
+nav,
+#social,
+.fav,
+.teaser img,
+#disqus_thread,
+section footer,
+#tab,
+#rq {
+	display: none;
+}
+body,
+footer {
+	background: white;
+}
+#contentwrap {
+	position: static;
+}
+.w1k,
+#content,
+div.foldout-inner {
+	width: auto;
+	border: 0;
+	float: none;
+	overflow: visible;
+}
+h1, h2, h3, h4, section {
+	clear: left;
+}
+.slice table {
+	float: left;
+	width: auto;
+	margin-right: 1em;
+}
+h1, h2, header {
+	page-break-after: avoid;
+}
+.foldout-outer,
+.foldout-inner {
+	page-break-before: avoid;
+}
+
+
+#right>* {
+	display: none !important;
+}
+#right,
+#visits.interactive {
+	display: block !important;
+}
+#visits:before,
+.close {
+	display: none;
+}
+#mb li {
+	border-bottom: 1px solid;
+}
+
+p {
+	widows: 3;
+	orphans: 3;
+}
+.slice-schule,
+.slice-kurse,
+.slice-unterkunft,
+.slice-freizeit,
+.foldout-outer {
+	display: block !important;
+}
+.slice-bilder,
+.slice-anmeldung,
+.slice-comments {
+	display: none !important;
+}
+.slice h1 {
+	display: block;
+	margin-top: 2em;
+}
+td,
+th {
+	border: 1px solid #bbb;
+}
+td,
+th,
+.act,
+.ln,
+.foldout header,
+.foldout header h2,
+h1,
+h2,
+h3,
+.teaser,
+.link a,
+#visits,
+input,
+select,
+li.current,
+#mb li {
+	background: white !important;
+	color: black !important;
+	border-color: #bbb !important;
+}
+.link a {
+	font-weight: normal;
+	text-align: left;
+}
+.link a:after {
+	content: " (" attr(href) ")";
+	text-indent: 1em;
+}
+.foldout header {
+	border: 1px solid #bbb;
+	padding-left: 10px;
+}
+.foldout {
+	padding: 2px;
+	margin: 0;
+}
+.foldout header {
+	margin-top: 4em;
+}
+.left,
+.right {
+	width: 45% !important;
+}
+#footer,
+#footer a {
+	color: black !important;
+}
+#footer p {
+	margin: 0;
+	width: 620px;
+}

@@ -1,0 +1,137 @@
+/**
+ * @package Studium_Ausland
+ *
+ * This file serves as a template for the automatic generation of colors-min.css. The following replacements are made:
+	* @CAT  -> c-$category_slug, e.g. c-sprachkurs
+	* @FULL, @MAIN, @MAINSEC, @B, @C, @D, @E, @BSEC, @CSEC, @DSEC, @ESEC -> colours as per the category option
+ *
+ * Changes will only be reflected when the file is rebuilt, see Studium Ausland cache settings.
+ */
+
+.@CAT-full {
+	background-color: @FULL;
+}
+/* Base color: #666 ------------------------------------------- A B04628 ------------------------- */
+.@CAT #left h1,
+.@CAT #navi ul.menu a:hover,
+.@CAT .slicenav td.active,
+.@CAT .link a:hover,
+.@CAT #catlist h3.open,
+.@CAT .foldout header.open,
+.@CAT.foldout header.open,
+body .@CAT .link a:hover,
+.@CAT .ln:hover,
+.@CAT #visits:before,
+#mb>li.@CAT:hover,
+.scat ul.@CAT a:hover,
+.@CAT .minimenu a:hover,
+.@CAT .rq-direct .link a:hover {
+	background-color: @MAIN;
+}
+.@CAT #navi,
+.@CAT #visits,
+.scat ul.@CAT {
+	border-color: @MAIN;
+}
+/* ---------------------------------------------------------------- A ~compl 184254 ---------------------*/
+.@CAT h1,
+.@CAT a {
+	color: @MAINSEC;
+}
+
+/* Base color: #bbb --------------------------------------------- B CC7C66 -------------------------- */
+.@CAT #navi,
+.@CAT .teaser h2,
+.@CAT .teaser h3,
+.@CAT .teaser h4,
+body .@CAT.teaser h2,
+body .@CAT.teaser h3,
+body .@CAT.teaser h4,
+.@CAT #catlist h3,
+.@CAT .foldout header,
+.@CAT.foldout header,
+.@CAT .link a,
+body .@CAT .link a,
+.@CAT .ln,
+#sotd.@CAT h1,
+.@CAT td.hover,
+.@CAT td.fav,
+.@CAT .rq-direct .link a {
+	background-color: @B;
+}
+.@CAT #navi ul.menu a,
+.@CAT .double img,
+.@CAT .teaser,
+.@CAT .head,
+body .@CAT.teaser,
+.@CAT .gallery img,
+.scat ul.@CAT li,
+.@CAT .minimenu a {
+	border-color: @B;
+}
+/* ---------------------------------------------------------------- B ~compl 2D6C70 ---------------------*/
+.@CAT h1,
+.@CAT h2,
+.@CAT h3,
+.@CAT .block,
+.@CAT .double,
+.@CAT .slice > section,
+.@CAT .rq-direct,
+.@CAT .rq-l li,
+.@CAT .rq-direct th {
+	border-color: @BSEC;
+}
+.@CAT h2 {
+	color: @BSEC;
+}
+/* Base color: #ccc ------------------------------------------- C E09F8D -------------------------------- */
+.@CAT #navi .menu-item>a,
+.scat ul.@CAT {
+	background-color: @C;
+}
+.@CAT .teaser img,
+body .@CAT.teaser img,
+.@CAT #visits input,
+.@CAT #visits select {
+	border-color: @C;
+}
+/* ---------------------------------------------------------------- C compl = 488778 ---------------------*/
+.@CAT thead th,
+.@CAT th[scope=rowgroup],
+.@CAT th.hover,
+.@CAT th.fav,
+.@CAT .rq-direct thead th {
+	background-color: @CSEC;
+}
+.@CAT h3,
+.@CAT #school-offers {
+	color: @CSEC;
+}
+/* Base color: #ddd ------------------------------------------- D F0BDAF ---------------------------------*/
+.@CAT #navi .menu-item-level-1>a,
+.@CAT td,
+.@CAT .slicenav td,
+.@CAT .minimenu a,
+.@CAT #visits {
+	background-color: @D;
+}
+/* ---------------------------------------------------------------- D compl ACBFBA---------------------*/
+.@CAT tbody th,
+.@CAT .rq-direct th {
+	background-color: @DSEC;
+}
+.@CAT #content {
+	border-color: @DSEC;
+}
+/* Base color: #eee ------------------------------------------------------ E FFD7CC --------------------- */
+.@CAT #navi .menu-item-level-2>a,
+.@CAT tfoot td,
+#mb>li.@CAT,
+.@CAT .rq-l li {
+	background-color: @E;
+}
+/* ---------------------------------------------------------------- E compl DCE5E3---------------------*/
+.@CAT tfoot th,
+.@CAT #school-offers {
+	background-color: @ESEC;
+}

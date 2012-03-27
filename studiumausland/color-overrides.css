@@ -1,0 +1,34 @@
+/**
+ * @package Studium_Ausland
+ *
+ * This file is minified and appended to the category color css.
+ * Changes will only be reflected when the file is rebuilt, see Studium Ausland cache settings.
+ */
+
+.teaser h2,
+.teaser h3,
+.teaser h4,
+.link a {
+	color: #fff;
+}
+.c-sprachkurs #navi .menu-item-level-3>a,
+.c-praktikum #navi .menu-item-level-3>a,
+.c-junior #navi .menu-item-level-3>a,
+.c-highschool #navi .menu-item-level-3>a,
+.c-uni #navi .menu-item-level-3>a,
+.c-50plus #navi .menu-item-level-3>a,
+td.empty {
+	background-color: #fff;
+}
+.c-.teaser {
+	border-color: #8F8B7F;
+}
+body .c- .link a {
+	background-color: #8F8B7F;
+}
+body .c- .link a:hover {
+	background-color: #5E5C54;
+}
+.slicenav td.sni-comments {
+	background-color: #916B4F;
+}
